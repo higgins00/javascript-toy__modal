@@ -5,9 +5,37 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script.js">
+  </script>
 </head>
 <body>
+
+<h1>Demo Application</h1>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Add Note</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal__Content">
+    <div class="modal__Top">
+        <span class="close">×</span>
+        <h1>Add Note</h1>
+    </div>
+    <p>New note:</p>
+        <form>
+            <textarea>    
+            </textarea>
+            <input type="checkbox" name="important" value="important"> Important
+            <br>
+            <input type="submit" value="Add Note">
+            <input type="button" onclick="myFunction()" value="Cancel">
+        </form>
+  </div>
+
+</div>
 
 </body>
 </html>
